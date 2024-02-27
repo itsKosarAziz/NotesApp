@@ -1,16 +1,22 @@
 # NotesApp
-App to retrieve notes from a json
+App to retrieve notes from a local json file
 
-1. Steps to build the app:
+Steps to build the app:
 
-2. Install VS code
+Pre-requisites:
+1. Make sure you have VS code installed
 
-3. Install Android Studio
+2. Install Android Studio
 
-4. Install Flutter version
+3. Install/Downgrade to Flutter version 3.19 (Or any version that is compatible with 3.19)
 
-5.  Clone the repo on your machine by using the command 'git clone' in VS code
+Instructions:
+4. Clone the repo on your machine by using the command 'git clone' in VS code (Use HTTPS Url)
 
-6. Run an emulator using android studio
+5. Create a new device in android studio (Pixel 4, Pie OS)
 
-7. Run flutter pub get on vs code
+6. Run the emulator using android studio
+
+7. In the vs code terminal, go to the project root directory and run 'flutter pub get' OR go to the pubspec.yaml file and click the arrow button in the top right corner
+
+8.  Select the Pixel 4 device from VS code and run the code without debugging
